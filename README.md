@@ -14,3 +14,10 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+please do the importing of python to php
+<?php 
+$command = escapeshellcmd('/usr/custom/test.py');
+$output = shell_exec($command);
+
+echo $output;
+?>
